@@ -1,0 +1,27 @@
+{
+  "name": "cashflow",
+  "version": "1.0.0",
+  "description": "A simple app to help you track and manage your income and expenses",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andela-mfalade/cashflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-mfalade/cashflow/issues"
+  },
+  "homepage": "https://github.com/andela-mfalade/cashflow",
+  "dependencies": {
+    "express": "^4.13.1",
+    "firebase": "^2.2.7",
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.0.1",
+    "nodemon": "^1.3.8"
+  }
+}

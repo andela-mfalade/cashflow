@@ -1,0 +1,23 @@
+{
+  "name": "cashflow",
+  "version": "0.0.0",
+  "homepage": "https://github.com/andela-mfalade/cashflow",
+  "authors": [
+    "andela-mfalade <mayowa.falade@andela.co>"
+  ],
+  "description": "A simple app to help you track and manage your income and expenses",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "firebase": "~2.2.7"
+  }
+}
