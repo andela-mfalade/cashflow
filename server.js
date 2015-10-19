@@ -28,7 +28,7 @@ myFirebaseRef.set({
 
 app.use(express.static(__dirname + '/public'));
 app.get('/', function(req, res) {
-  res.sendfile('/views/index.html');
+  res.sendfile('./public/views/index.html');
 });
 
 app.listen(port, function(err) {
