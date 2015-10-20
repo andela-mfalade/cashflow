@@ -12,19 +12,8 @@ var express = require('express');
 var app = express();
 var Firebase = require('firebase');
 
-var port = process.env.PORT || 5050;
+var port = process.env.PORT || 5550;
 
-var myFirebaseRef = new Firebase("https://cash-flow.firebaseio.com"); 
-
-myFirebaseRef.set({
-  title: "Hello World!",
-  author: "Mayor of life",
-  location: {
-    city: "Lagos city",
-    state: "Lagos state",
-    street: "Funsho Alara street",
-  }
-});
 
 app.use(express.static(__dirname + '/public'));
 app.get('/', function(req, res) {
@@ -39,3 +28,5 @@ app.listen(port, function(err) {
     console.log(port + " is where the magic happens..");
   }
 });
+
+exports = module.exports = app;
